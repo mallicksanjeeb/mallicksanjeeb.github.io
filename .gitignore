@@ -1,0 +1,29 @@
+# Git ignore file for portfolio
+
+# OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# IDE
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Dependencies (if using build tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build files
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.log
+.env
+.env.local
